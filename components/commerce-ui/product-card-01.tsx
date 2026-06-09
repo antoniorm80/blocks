@@ -5,8 +5,9 @@ import PriceFormat from "@/components/commerce-ui/price-format-basic";
 import StarRating_Fractions from "@/components/commerce-ui/star-rating-fractions";
 import { Button } from "@/components/ui/button";
 
-const DEFAULT_IMAGE_URL =
-  "https://raw.githubusercontent.com/stackzero-labs/ui/refs/heads/main/public/placeholders/headphone-1.jpg";
+// const DEFAULT_IMAGE_URL = "https://raw.githubusercontent.com/stackzero-labs/ui/refs/heads/main/public/placeholders/headphone-1.jpg";
+const DEFAULT_IMAGE_URL2 = "https://images.unsplash.com/photo-1532479255663-1ded0438a701?q=80&w=818&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+
 
 interface ProductCardProps {
   imageUrl?: string;
@@ -24,9 +25,9 @@ interface ProductCardProps {
 
 function ProductCard_01({
   description = "Premium noise-cancelling headphones with surround sound technology and high comfort",
-  discount = "20% OFF",
+  discount = "50% OFF",
   freeShipping = true,
-  imageUrl = DEFAULT_IMAGE_URL,
+  imageUrl = DEFAULT_IMAGE_URL2,
   onAddToCart = () => {},
   onBuyNow = () => {},
   prefix = "$",
