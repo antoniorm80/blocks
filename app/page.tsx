@@ -1,64 +1,39 @@
+import StarRating_Basic_Ex_01 from "@/components/commerce-ui/star-rating-basic-ex-01";
 import Image from "next/image";
+import Rating from "./blocks/review";
+import ProductCard_01 from "@/components/commerce-ui/product-card-01";
+import Address_01 from "@/components/commerce-ui/address-01";
+import Banner_01 from "@/components/commerce-ui/banner-01";
+import Banner_02 from "@/components/commerce-ui/banner-02";
+import Banner_03 from "@/components/commerce-ui/banner-03";
+import Banner_04 from "@/components/commerce-ui/banner-04";
+import Banner_05 from "@/components/commerce-ui/banner-05";
+import Banner_06 from "@/components/commerce-ui/banner-06";
+import Banner_07 from "@/components/commerce-ui/banner-07";
+import ProductCard_12 from "@/components/commerce-ui/product-card-12";
+import { Carter_One } from "next/font/google";
+import Cart_01 from "@/components/commerce-ui/cart-01";
+import CartExample_01 from "@/components/commerce-ui/cart-01-ex";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <div className="flex flex-col flex-1 items-center justify-center bg-emerald-50 font-sans dark:bg-black">
+      <main className="flex flex-1 w-full max-w-6xl flex-col items-center py-10 px-16 bg-white dark:bg-black sm:items-center">
+       {/* <StarRating_Basic_Ex_01/> */}
+       {/* <Rating/> */}
+       {/* <ProductCard_01/> */}
+       {/* <ProductCard_12/> */}
+       {/* <Cart_01/> */}
+       {/* <CartExample_01/> */}
+       {/* <Address_01/> */}
+       {/* <Banner_01/> */}
+       {/* <Banner_02/> */}
+       {/* <Banner_03/> */}
+       {/* <Banner_04/> */}
+       <Banner_05/>
+       {/* <Banner_06/> */}
+       {/* <Banner_07/> */}
+       
       </main>
     </div>
   );
