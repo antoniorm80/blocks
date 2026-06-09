@@ -14,6 +14,7 @@ import ProductCard_12 from "@/components/commerce-ui/product-card-12";
 import { Carter_One } from "next/font/google";
 import Cart_01 from "@/components/commerce-ui/cart-01";
 import CartExample_01 from "@/components/commerce-ui/cart-01-ex";
+import ProductsBlock from "./blocks/products";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
        {/* <StarRating_Basic_Ex_01/> */}
        {/* <Rating/> */}
        {/* <ProductCard_01/> */}
+        <ProductsBlock/>
        {/* <ProductCard_12/> */}
        {/* <Cart_01/> */}
        {/* <CartExample_01/> */}
@@ -30,7 +32,7 @@ export default function Home() {
        {/* <Banner_02/> */}
        {/* <Banner_03/> */}
        {/* <Banner_04/> */}
-       <Banner_05/>
+       {/* <Banner_05/> */}
        {/* <Banner_06/> */}
        {/* <Banner_07/> */}
        

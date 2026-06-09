@@ -60,7 +60,7 @@ function ProductCard_12({
   return (
     <div className="group flex flex-col overflow-hidden rounded-xl border border-gray-200 bg-white shadow-sm transition-all duration-300 hover:shadow-md dark:border-gray-800 dark:bg-gray-900">
       {/* Image section */}
-      <div className="relative h-52 w-full bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 sm:h-[220px] dark:from-gray-900 dark:via-orange-950/20 dark:to-gray-900">
+      <div className="relative h-52 w-full bg-linear-to-br from-amber-50 via-orange-50 to-rose-50 sm:h-55 dark:from-gray-900 dark:via-orange-950/20 dark:to-gray-900">
         {specialOffer && (
           <div className="absolute top-3 left-3 z-10 flex items-center justify-center">
             <div className="animate-pulse-slow rounded-full bg-orange-600 px-3 py-1 text-xs font-bold tracking-wider text-white uppercase shadow-md">
@@ -162,7 +162,7 @@ function ProductCard_12({
         <div className="mb-4 rounded-lg bg-amber-50 p-3 dark:bg-amber-950/20">
           <div className="flex items-start gap-3">
             {testimonial.avatarUrl && (
-              <div className="flex-shrink-0">
+              <div className="shrink-0">
                 <img
                   src={testimonial.avatarUrl}
                   alt={testimonial.author}
@@ -218,7 +218,7 @@ function ProductCard_12({
             </Button>
             <Button
               onClick={onBookNow}
-              className="bg-gradient-to-r from-amber-500 to-orange-600 text-white hover:from-amber-600 hover:to-orange-700"
+              className="bg-linear-to-r from-amber-500 to-orange-600 text-white hover:from-amber-600 hover:to-orange-700"
             >
               Book now
             </Button>

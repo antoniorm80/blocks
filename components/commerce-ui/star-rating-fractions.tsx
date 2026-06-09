@@ -119,7 +119,7 @@ const StarRating_Fractions = ({
 
       return {
         color: color,
-        fill: `url(#${starIds[index]})`,
+        // fill: `url(#${starIds[index]})`,   //Bug     
       } as React.CSSProperties;
     },
     [readOnly, hoverRating, value, color, starIds]
@@ -134,7 +134,8 @@ const StarRating_Fractions = ({
     if (partialFill > 0) {
       return (
         <linearGradient
-          id={starIds[partialStarIndex]}
+          // id={starIds[partialStarIndex]} // Bug
+          id="5"
           x1="0%"
           y1="0%"
           x2="100%"
